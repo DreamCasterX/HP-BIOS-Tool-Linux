@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # CREATOR: mike.lu@hp.com
-# CHANGE DATE: 10/18/2024
-__version__="1.7"
+# CHANGE DATE: 04/30/2025
+__version__="1.8"
 
 
 # NOTE:
@@ -17,11 +17,11 @@ __version__="1.7"
 
 
 # SET FILE PATH
-readonly FTP=https://ftp.hp.com/pub/softpaq/sp150501-151000/sp150953.tgz
-readonly SPQ=$PWD/sp150953.tgz
-readonly BIN=$PWD/sp150953/non-rpms
-readonly MOD=$PWD/sp150953/non-rpms/hpuefi-mod-3.05
-readonly APP=$PWD/sp150953/non-rpms/hp-flash-3.24_x86_64
+readonly FTP=https://ftp.hp.com/pub/softpaq/sp157501-158000/sp157762.tgz
+readonly SPQ=$PWD/sp157762.tgz
+readonly BIN=$PWD/sp157762/non-rpms
+readonly MOD=$PWD/sp157762/non-rpms/hpuefi-mod-3.06
+readonly APP=$PWD/sp157762/non-rpms/hp-flash-3.25_x86_64
 
 
 # CHECK INTERNET CONNECTION
